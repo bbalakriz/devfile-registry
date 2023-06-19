@@ -1,6 +1,15 @@
 schemaVersion: 2.2.0
 metadata:
   name: dotnet-custom-60
+  displayName: Custom .NET 6.0
+  description: Custom .NET 6.0 application
+  icon: https://github.com/dotnet/brand/raw/main/logo/dotnet-logo.png
+  tags:
+    - .NET
+    - .NET 6.0
+  projectType: dotnet
+  language: .NET
+  version: 1.0.2
 attributes:
   controller.devfile.io/devworkspace-config:
     name: devworkspace-config
