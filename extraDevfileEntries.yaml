@@ -77,3 +77,15 @@ samples:
     git:
       remotes:
         origin: https://github.com/devfile-samples/devfile-sample-dotnet60-basic.git
+  - name: dotnet-custom
+    displayName: Custom .NET
+    description: Custom MVC .NET 6.0 application
+    icon: https://github.com/dotnet/brand/raw/main/logo/dotnet-logo.png
+    tags:
+      - .NET
+    projectType: dotnet
+    language: .NET
+    provider: Red Hat
+    git:
+      remotes:
+        origin: https://github.com/bbalakriz/dotnet-web-simple-devspaces.git
